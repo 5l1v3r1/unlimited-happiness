@@ -70,14 +70,6 @@ echo "--------------------------------"
 echo >> ~/.zshrc
 echo "export EDITOR=\"nano\"" >> ~/.zshrc
 
-echo "Getting cemu"
-cd /usr/share/
-git clone https://github.com/hugsy/cemu
-cd cemu/
-/bin/bash requirements.sh --python2
-echo "python /usr/share/cemu/main.py" >> /usr/bin/cemu
-cd ~
-
 echo
 echo "Giving you shitty aliases"
 echo >> ~/.zshrc
