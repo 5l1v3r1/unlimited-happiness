@@ -82,18 +82,22 @@ echo "Setting Homebrew stuff"
 echo "--------------------------------"
 echo >> ~/.zshrc
 echo "HOMEBREW OPTIONS" >> ~/.zshrc
+echo "export HOMEBREW_GITHUB_API_TOKEN=\"\""
 echo "export HOMEBREW_CASK_OPTS=\"--caskroom=/opt/homebrew-cask/Caskroom\"" >> ~/.zshrc
 echo "export HOMEBREW_NO_ANALYTICS=1" >> ~/.zshrc
 
 echo
 echo "*** Do this stuff manually ***"
 echo "open ~/.zshrc and change/uncomment the following:"
+echo "Add in your HOMEBREW_GITHUB_API_TOKEN"
 echo "ZSH_THEME=\"crcandy\""
 echo "CASE_SENSITIVE=\"false\""
 echo "ENABLE_CORRECTION=\"true\""
 echo "COMPLETION_WAITING_DOTS=\"true\""
 echo "plugins=(sublime compleat zsh-syntax-highlighting dircycle)"
 
+echo
+echo
 echo
 echo "*** There are a bunch of other themes built in. Check out: https://zshthem.es/browse-zsh-themes/ ***"
 echo "*** Consider installing all of these colour schemes because why not: http://iterm2colorschemes.com/ ***"
