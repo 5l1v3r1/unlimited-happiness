@@ -86,6 +86,9 @@ echo "export HOMEBREW_GITHUB_API_TOKEN=\"\""
 echo "export HOMEBREW_CASK_OPTS=\"--caskroom=/opt/homebrew-cask/Caskroom\"" >> ~/.zshrc
 echo "export HOMEBREW_NO_ANALYTICS=1" >> ~/.zshrc
 
+echo >> ~/.zshrc
+echo "whoami | lolcat | figlet -c" >> ~/.zshrc
+
 echo
 echo "*** Do this stuff manually ***"
 echo "open ~/.zshrc and change/uncomment the following:"
