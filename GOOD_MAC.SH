@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~
 echo "*~*~*~WELCOME TO GOOD_MAC.SH~*~*~*"
 echo
 echo "Installing homebrew"
@@ -49,6 +50,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 echo
 echo "Pip stuff"
 echo "--------------------------------"
+pip install --upgrade pip
 pip install tweepy facebook-sdk
 
 echo "Gem stuff"
@@ -67,6 +69,14 @@ echo "Making nano your default editor"
 echo "--------------------------------"
 echo >> ~/.zshrc
 echo "export EDITOR=\"nano\"" >> ~/.zshrc
+
+echo "Getting cemu"
+cd /usr/share/
+git clone https://github.com/hugsy/cemu
+cd cemu/
+/bin/bash requirements.sh --python2
+echo "python /usr/share/cemu/main.py" >> /usr/bin/cemu
+cd ~
 
 echo
 echo "Giving you shitty aliases"
@@ -98,7 +108,6 @@ echo "CASE_SENSITIVE=\"false\""
 echo "ENABLE_CORRECTION=\"true\""
 echo "COMPLETION_WAITING_DOTS=\"true\""
 echo "plugins=(sublime compleat zsh-syntax-highlighting dircycle)"
-
 echo
 echo
 echo
