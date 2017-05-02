@@ -14,7 +14,7 @@ brew install curl --with-openssl
 brew link --force curl
 
 # good openssl
-brew install openssl
+brew install --force openssl
 # maybe don't do this (I do it) you might break some shit that doesn't look for openssl in /usr/bin/
 brew link --force openssl
 
