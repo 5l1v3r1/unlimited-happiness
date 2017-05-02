@@ -1,5 +1,4 @@
 #!/bin/bash
-cd ~
 
 echo
 echo "GOOD_MAC.SH"
@@ -10,11 +9,11 @@ echo "XCode command tools"
 echo "Get ready for prompts"
 xcode-select --install
 
-/bin/bash BREW_STUFF.SH
-/bin/bash PIP_STUFF.SH
-/bin/bash GEM_STUFF.SH
-/bin/bash CURL_STUFF.SH
-/bin/bash VIM_STUFF.SH
+/bin/bash $(PWD)/BREW_STUFF.SH
+/bin/bash $(PWD)/PIP_STUFF.SH
+/bin/bash $(PWD)/GEM_STUFF.SH
+/bin/bash $(PWD)/CURL_STUFF.SH
+/bin/bash $(PWD)/VIM_STUFF.SH
 
 echo
 echo "OPENING iTerm2.app"
