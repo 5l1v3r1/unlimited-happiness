@@ -16,5 +16,5 @@ xcode-select --install
 
 echo
 echo "OPENING iTerm2.app"
-echo "Run '/bin/bash ZSH_STUFF.SH' in iTerm"
+echo "Run '/bin/bash $(pwd)/ZSH_STUFF.SH' in iTerm"
 open /Applications/iTerm.app
