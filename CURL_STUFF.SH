@@ -1,5 +1,5 @@
 echo
-echo "Creating ~/.curlrc"
+echo "Creating ~/.curlrc..."
 
 echo "referer = \";auto\"" >> ~/.curlrc
 echo "connect-timeout = 10" >> ~/.curlrc

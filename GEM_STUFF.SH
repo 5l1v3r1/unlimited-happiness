@@ -2,6 +2,6 @@
 
 echo
 echo "Gem stuff"
-echo "--------------------------------"
+echo "---------"
 gem update
 gem install zsteg did_you_mean

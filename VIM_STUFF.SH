@@ -1,3 +1,6 @@
+echo
+echo "Creating ~/.vimrc..."
+
 echo "set number" >> ~/.vimrc
 echo "set showcmd" >> ~/.vimrc
 echo "set cursorline" >> ~/.vimrc

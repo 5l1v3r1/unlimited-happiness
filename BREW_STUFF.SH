@@ -2,22 +2,22 @@
 
 echo
 echo "Installing homebrew"
-echo "--------------------------------"
+echo "-------------------"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo
 echo "Updating homebrew"
-echo "--------------------------------"
+echo "-----------------"
 brew update
 brew upgrade
 
 echo "...tapping cask"
-echo "--------------------------------"
+echo "---------------"
 brew cask
 
 echo
 echo "Brew install stuff"
-echo "--------------------------------"
+echo "------------------"
 # good curl
 brew install curl --with-openssl
 # make use of good curl
@@ -71,7 +71,7 @@ brew install zsh-completions
 
 echo
 echo "Brew cask install stuff"
-echo "--------------------------------"
+echo "-----------------------"
 
 brew install Caskroom/cask/android-platform-tools
 brew install Caskroom/cask/android-file-transfer
