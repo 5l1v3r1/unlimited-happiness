@@ -5,12 +5,16 @@ echo "GOOD_MAC.SH"
 echo
 echo
 
+
+export HISTFILE=
+
+
 echo "XCode command tools"
 echo "Get ready for prompts"
 xcode-select --install
 
 /bin/bash $(PWD)/BREW_STUFF.SH
-/bin/bash $(PWD)/PIP_STUFF.SH
+/bin/bash $(PWD)/PIP3_STUFF.SH
 /bin/bash $(PWD)/GEM_STUFF.SH
 /bin/bash $(PWD)/CURL_STUFF.SH
 /bin/bash $(PWD)/VIM_STUFF.SH
@@ -34,3 +38,6 @@ echo "INSTALL THESE SUBLIME PACKAGES"
 echo "------------------------------"
 echo "Tomorrow Color Schemes"
 echo "x86 and x86_64 Assembly"
+
+rm ~/.bash_history
+history -c

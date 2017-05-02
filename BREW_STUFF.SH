@@ -3,9 +3,9 @@
 echo
 echo "Installing homebrew"
 echo "-------------------"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew cask
+#brew cask
 
 echo
 # good curl
@@ -14,74 +14,133 @@ brew install curl --with-openssl
 brew link --force curl
 
 # good openssl
+echo
 brew install --force openssl
-# maybe don't do this (I do it) you might break some shit that doesn't look for openssl in /usr/bin/
-brew link --force openssl
 
-brew install binwalk 
-brew install calc 
-brew install ccat
-brew install dtrx
-brew install exif
-brew install exiftool
-brew install figlet
-brew install fortune
-brew install gcc
-brew install gnu-sed
-brew install gnutls
-brew install hexedit
-brew install imagemagick
-brew install lolcat
-brew install ngrep
-brew install magic-wormhole
-brew install mitmproxy
-brew install nmap
-brew install ntfs-3g
-brew install pdfcrack
-brew install pdfgrep
-brew install proxychains-ng
-brew install pyqt
-brew install pyqt5
+echo
 brew install python
+echo
 brew install python3
+
+
+echo
+brew install binwalk 
+echo
+brew install calc 
+echo
+brew install ccat
+echo
+brew install dtrx
+echo
+brew install exif
+echo
+brew install exiftool
+echo
+brew install figlet
+echo
+brew install fortune
+echo
+brew install gcc
+echo
+brew install gnu-sed
+echo
+brew install gnutls
+echo
+brew install hexedit
+echo
+brew install imagemagick
+echo
+brew install lolcat
+echo
+brew install ngrep
+echo
+brew install magic-wormhole
+echo
+brew install mitmproxy
+
+echo
+brew cask install osxfuse
+echo
+brew install nmap
+
+echo
+brew install ntfs-3g
+echo
+brew install pdfcrack
+echo
+brew install pdfgrep
+echo
+brew install proxychains-ng
+echo
+brew install pyqt
+echo
+brew install pyqt5
+echo
 brew install qrencode
+echo
 brew install qt
+echo
 brew install qt5
+echo
 brew install radare2
+echo
 brew install rig
+echo
 brew install sshuttle
+echo
 brew install sslscan
-brew install sslstrip
+echo
 brew install sqlmap
+echo
 brew install tldr
+echo
 brew install wget
+echo
 brew install youtube-dl
+echo
 brew install zsh
+echo
 brew install zsh-completions
 
 echo
-brew install Caskroom/cask/android-platform-tools
-brew install Caskroom/cask/android-file-transfer
-brew install Caskroom/cask/appcleaner
-brew install Caskroom/cask/dashlane
-brew install Caskroom/cask/google-chrome
-brew install Caskroom/cask/google-drive
-# brew install Caskroom/cask/google-web-designer
-brew install Caskroom/cask/hex-fiend
-brew install Caskroom/cask/iterm2
-brew install Caskroom/cask/insomniax
-brew install Caskroom/cask/keepassx
-brew install Caskroom/cask/metasploit
-brew install Caskroom/cask/mkchromecast
-brew install Caskroom/cask/puush
-brew install Caskroom/cask/skype
-brew install Caskroom/cask/slack
-brew install Caskroom/cask/spotify
-brew install Caskroom/cask/spotify-notifications
-brew install Caskroom/cask/sublime-text
-brew install Caskroom/cask/teamviewer
-brew install Caskroom/cask/textual
-brew install Caskroom/cask/the-unarchiver
-brew install Caskroom/cask/tunnelblick
-brew install Caskroom/cask/vlc
-brew install Caskroom/cask/xquartz
+brew cask install android-platform-tools
+echo
+brew cask install android-file-transfer
+echo
+brew cask install appcleaner
+echo
+brew cask install google-chrome
+echo
+brew cask install google-drive
+echo
+brew cask install hex-fiend
+echo
+brew cask install iterm2
+echo
+brew cask install insomniax
+echo
+brew cask install keepassx
+echo
+brew cask install mkchromecast
+echo
+brew cask install puush
+echo
+brew cask install skype
+echo
+brew cask install slack
+echo
+brew cask install spotify
+echo
+brew cask install spotify-notifications
+echo
+brew cask install sublime-text
+echo
+brew cask install textual
+echo
+brew cask install the-unarchiver
+echo
+brew cask install tunnelblick
+echo
+brew cask install vlc
+echo
+brew cask install xquartz

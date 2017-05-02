@@ -1,8 +1,4 @@
 echo
-echo "Changing default shell to zsh..."
-chsh -s $(which zsh)
-
-echo
 echo "Getting oh-my-zsh"
 echo "-----------------"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -10,7 +6,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 echo
 echo "Changing your prompt (PS1)..."
 echo >> ~/.zshrc
-echo "export PS1=\"\$FG[001]%n%{\$reset_color%}@\$FG[010]%m%{\$reset_color%}:\$FG[011]%1d%{\$reset_color%}\$ \"" >> ~/.zshrc
+echo "export PS1=\"\$FG[001]%n%{\$reset_color%}@\$FG[010]%m%{\$reset_color%}:\$FG[011]%~%{\$reset_color%}\$ \"" >> ~/.zshrc
 
 echo
 echo "Making vim your default editor..."
