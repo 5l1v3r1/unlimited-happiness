@@ -38,9 +38,10 @@ brew install exiftool
 brew install figlet
 brew install fortune
 brew install gcc
+brew instakk gnu-sed
 brew install gnutls
 brew install hexedit
-brew install imagemagick
+brew install magick
 brew install lolcat
 brew install ngrep
 brew install magic-wormhole
@@ -67,15 +68,25 @@ echo "Brew cask install stuff"
 echo "--------------------------------"
 
 brew install Caskroom/cask/android-platform-tools
+brew install Caskroom/cask/android-file-transfer
+brew install Caskroom/cask/appcleaner
+brew install Caskroom/cask/dashlane
 brew install Caskroom/cask/google-chrome
+brew install Caskroom/cask/google-drive
+# brew install Caskroom/cask/google-web-designer
 brew install Caskroom/cask/hex-fiend
 brew install Caskroom/cask/iterm2
 brew install Caskroom/cask/insomniax
+brew install Caskroom/cask/keepassx
+brew install Caskroom/cask/mkchromecast
+brew install Caskroom/cask/puush
 brew install Caskroom/cask/skype
 brew install Caskroom/cask/slack
 brew install Caskroom/cask/spotify
 brew install Caskroom/cask/spotify-notifications
 brew install Caskroom/cask/sublime-text
+brew install Caskroom/cask/teamviewer
+brew install Caskroom/cask/textual
 brew install Caskroom/cask/the-unarchiver
 brew install Caskroom/cask/tunnelblick
 brew install Caskroom/cask/vlc

@@ -13,6 +13,8 @@ xcode-select --install
 /bin/bash BREW_STUFF.SH
 /bin/bash PIP_STUFF.SH
 /bin/bash GEM_STUFF.SH
+/bin/bash CURL_STUFF.SH
+/bin/bash VIM_STUFF.SH
 
 echo
 echo "OPENING iTerm2.app"
