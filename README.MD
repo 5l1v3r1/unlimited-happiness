@@ -2,3 +2,5 @@
 
 1. Run 'GOOD\_MAC.SH'
 2. iTerm should open. Run 'ZSH\_STUFF.SH' from iTerm
+
+I know it's gross. This probably doesn't work.
