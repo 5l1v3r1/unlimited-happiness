@@ -25,8 +25,6 @@ echo
 echo "Setting Homebrew options..."
 echo >> ~/.zshrc
 echo "# HOMEBREW OPTIONS" >> ~/.zshrc
-echo "export HOMEBREW_GITHUB_API_TOKEN=\"\""
-echo "export HOMEBREW_CASK_OPTS=\"--caskroom=/opt/homebrew-cask/Caskroom\"" >> ~/.zshrc
 echo "export HOMEBREW_NO_ANALYTICS=1" >> ~/.zshrc
 
 echo >> ~/.zshrc
