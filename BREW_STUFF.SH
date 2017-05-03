@@ -94,6 +94,8 @@ brew install sqlmap
 echo
 brew install tldr
 echo
+brew install weechat
+echo
 brew install wget
 echo
 brew install youtube-dl
@@ -138,6 +140,8 @@ echo
 brew cask install textual
 echo
 brew cask install the-unarchiver
+echo
+brew cask install transmission
 echo
 brew cask install tunnelblick
 echo
