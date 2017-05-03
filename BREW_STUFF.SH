@@ -133,8 +133,6 @@ brew cask install slack
 echo
 brew cask install spotify
 echo
-brew cask install spotify-notifications
-echo
 brew cask install sublime-text
 echo
 brew cask install textual
