@@ -103,6 +103,8 @@ echo
 brew install zsh
 echo
 brew install zsh-completions
+echo
+brew install zsh-syntax-highlighting
 
 echo
 brew cask install android-platform-tools

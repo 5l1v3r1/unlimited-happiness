@@ -26,7 +26,8 @@ echo "Setting Homebrew options..."
 echo >> ~/.zshrc
 echo "# HOMEBREW OPTIONS" >> ~/.zshrc
 echo "export HOMEBREW_NO_ANALYTICS=1" >> ~/.zshrc
-
+echo >> ~/.zshrc
+echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 echo >> ~/.zshrc
 echo "whoami | lolcat | figlet -c" >> ~/.zshrc
 
