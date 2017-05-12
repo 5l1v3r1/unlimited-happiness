@@ -9,11 +9,6 @@ echo
 
 export HISTFILE=
 
-
-echo "XCode command tools"
-echo "Get ready for prompts"
-xcode-select --install
-
 chmod +x $(pwd)/BREW_STUFF.SH
 /bin/sh $(pwd)/BREW_STUFF.SH
 
