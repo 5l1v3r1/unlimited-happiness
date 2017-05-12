@@ -9,9 +9,9 @@ echo >> ~/.zshrc
 echo "export PS1=\"\$FG[001]%n%{\$reset_color%}@\$FG[010]%m%{\$reset_color%}:\$FG[011]%~%{\$reset_color%}\$ \"" >> ~/.zshrc
 
 echo
-echo "Making vim your default editor..."
+echo "Making sublime your default editor..."
 echo >> ~/.zshrc
-echo "export EDITOR=vim" >> ~/.zshrc
+echo "export EDITOR=subl" >> ~/.zshrc
 
 echo
 echo "Giving you shitty aliases..."
@@ -19,7 +19,7 @@ echo >> ~/.zshrc
 echo "# ALIASES" >> ~/.zshrc
 echo "alias cat=\"ccat\"" >> ~/.zshrc
 echo "alias -g ip=\"curl ifconfig.pro\"" >> ~/.zshrc
-echo "alias .zshrc=\"vim ~/.zshrc && source ~/.zshrc\"" >> ~/.zshrc
+echo "alias .zshrc=\"xdg-open ~/.zshrc && source ~/.zshrc\"" >> ~/.zshrc
 
 echo
 echo "Setting Homebrew options..."
@@ -46,3 +46,19 @@ echo
 echo "*** There are a bunch of other themes built in. Check out: https://zshthem.es/browse-zsh-themes/ ***"
 echo "*** Consider installing all of these colour schemes because why not: http://iterm2colorschemes.com/ ***"
 echo "*** You can navigate your directory tree with ctrl+shift+left/right ***"
+echo
+echo
+echo
+echo "GET THESE CHROME EXTENSIONS"
+echo "---------------------------"
+echo "HTTP Everywhere"
+echo "EditThisCookie"
+echo "Momentum"
+echo "Proxy SwitchySharp"
+echo "uBlock Origin"
+echo "User-Agent Switcher for Google Chrome"
+echo
+echo "INSTALL THESE SUBLIME PACKAGES"
+echo "------------------------------"
+echo "Tomorrow Color Schemes"
+echo "x86 and x86_64 Assembly"
