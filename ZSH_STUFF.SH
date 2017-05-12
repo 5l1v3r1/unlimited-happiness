@@ -31,11 +31,17 @@ echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 echo >> ~/.zshrc
 echo "whoami | lolcat | figlet -c" >> ~/.zshrc
 
+
+sed -i '' s/ZSH_THEME="robbyrussell"/ZSH_THEME="crcandy"/g ~/.zshrc
+sed -i '' s/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g ~/.zshrc
+sed -i '' s/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g ~/.zshrc
+sed -i '' s/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g ~/.zshrc
+sed -i '' s/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g ~/.zshrc
+
 echo
 echo "*** Do this stuff manually ***"
 echo "* open ~/.zshrc and change/uncomment the following:"
-echo "* Add in your HOMEBREW_GITHUB_API_TOKEN"
-echo "* ZSH_THEME=crcandy"
+echo "* ZSH_THEME="\"crcandy\""
 echo "* CASE_SENSITIVE=\"false\""
 echo "* ENABLE_CORRECTION=\"true\""
 echo "* COMPLETION_WAITING_DOTS=\"true\""
