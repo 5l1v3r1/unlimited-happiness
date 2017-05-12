@@ -5,7 +5,9 @@ echo "Installing homebrew"
 echo "-------------------"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# taps!
 brew cask
+brew tap caskroom/fonts
 
 echo
 # good curl
@@ -24,11 +26,17 @@ brew install python3
 
 
 echo
-brew install binwalk 
+brew install binwalk
 echo
-brew install calc 
+brew install calc
 echo
 brew install ccat
+echo
+brew install dcfldd
+echo
+brew install docker
+echo
+brew install docker-compose
 echo
 brew install dtrx
 echo
@@ -94,8 +102,6 @@ brew install sqlmap
 echo
 brew install tldr
 echo
-brew install weechat
-echo
 brew install wget
 echo
 brew install youtube-dl
@@ -106,12 +112,18 @@ brew install zsh-completions
 echo
 brew install zsh-syntax-highlighting
 
+
+
+
+
 echo
 brew cask install android-platform-tools
 echo
 brew cask install android-file-transfer
 echo
 brew cask install appcleaner
+echo
+brew cask install atom
 echo
 brew cask install google-chrome
 echo
@@ -146,3 +158,12 @@ echo
 brew cask install tunnelblick
 echo
 brew cask install vlc
+
+
+
+
+
+echo
+brew cask install font-raleway
+echo
+brew cask install font-lato
