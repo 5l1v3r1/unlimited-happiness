@@ -1,6 +1,7 @@
 #!/bin/bash
 
-currentdir=$(pwd)
+clear
+
 echo
 echo "GOOD_MAC.SH"
 echo
