@@ -32,7 +32,6 @@ sed -i.bak s/'# ENABLE_CORRECTION="true"'/'ENABLE_CORRECTION="true"'/g ~/.zshrc
 sed -i.bak s/'# COMPLETION_WAITING_DOTS="true"'/'COMPLETION_WAITING_DOTS="true"'/g ~/.zshrc
 sed -i.bak s/'plugins=(git)'/'plugins=(sublime compleat zsh-syntax-highlighting dircycle)'/g ~/.zshrc
 
-echo "*** There are a bunch of other themes built in. Check out: https://zshthem.es/browse-zsh-themes/ ***"
 echo "*** Consider installing all of these colour schemes because why not: http://iterm2colorschemes.com/ ***"
 echo "*** You can navigate your directory tree with ctrl+shift+left/right ***"
 echo

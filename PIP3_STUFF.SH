@@ -1,8 +1,8 @@
 #!/bin/bash
 
-pip install --upgrade pip setuptools
+pip install --upgrade pip setuptools &>./install.log
 
-pip3 install --upgrade pip3 setuptools wheel
-pip3 install tweepy
-pip3 install facebook-sdk
-pip3 install pwntools
+pip3 install --upgrade pip3 setuptools wheel &>./install.log
+pip3 install tweepy &>./install.log
+pip3 install facebook-sdk &>./install.log
+pip3 install pwntools &>./install.log
