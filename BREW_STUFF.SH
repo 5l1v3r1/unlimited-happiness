@@ -1,9 +1,10 @@
 #!/bin/bash
 
 echo
-echo "Installing homebrew"
-echo "-------------------"
+echo "Installing homebrew - WILL PROMPT FOR PASSWORD"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo
 
 # taps!
 echo 'Tapping cask'
