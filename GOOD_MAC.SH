@@ -26,7 +26,6 @@ chmod +x $(pwd)/CURL_STUFF.SH
 
 echo
 echo "OPENING iTerm2.app"
-
 chmod +x $(pwd)/ZSH_STUFF.SH
 open /Applications/iTerm.app $(pwd)/ZSH_STUFF.SH
 
