@@ -15,7 +15,7 @@ echo "# ALIASES" >> ~/.zshrc
 echo "alias cat=\"ccat\"" >> ~/.zshrc
 echo "alias dd=\"dcfldd\"" >> ~/.zshrc
 echo "alias -g ip=\"curl ifconfig.pro\"" >> ~/.zshrc
-echo "alias .zshrc=\"xdg-open ~/.zshrc && source ~/.zshrc\"" >> ~/.zshrc
+echo "alias .zshrc=\"vim ~/.zshrc && source ~/.zshrc\"" >> ~/.zshrc
 
 echo
 echo "Setting Homebrew options..."
@@ -23,7 +23,7 @@ echo >> ~/.zshrc
 echo "# HOMEBREW OPTIONS" >> ~/.zshrc
 echo "export HOMEBREW_NO_ANALYTICS=1" >> ~/.zshrc
 echo >> ~/.zshrc
-echo "MAKE HIGHLIGHTING WORK" >> ~/.zshrc
+echo "# MAKE HIGHLIGHTING WORK" >> ~/.zshrc
 echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 sed -i.bak s/'ZSH_THEME="robbyrussell"'/'ZSH_THEME="crcandy"'/g ~/.zshrc
