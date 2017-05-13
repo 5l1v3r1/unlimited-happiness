@@ -3,6 +3,8 @@ echo "Getting oh-my-zsh"
 echo "-----------------"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+chsh -s /bin/zsh >>~/install.log 2>&1
+
 echo
 echo "Changing your prompt (PS1)..."
 echo >> ~/.zshrc

@@ -2,7 +2,7 @@
 echo
 
 echo 'Updating gem(s)'
-sudo gem update >>~/install.log 2>&1
+sudo gem update
 
 echo 'Installing zsteg'
 sudo gem install zsteg >>~/install.log 2>&1
