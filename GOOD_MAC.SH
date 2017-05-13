@@ -1,6 +1,9 @@
 #!/bin/bash
 
 clear
+clear
+clear
+
 
 echo
 echo "GOOD_MAC.SH"
