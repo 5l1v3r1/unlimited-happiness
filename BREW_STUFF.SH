@@ -28,7 +28,8 @@ echo 'Installing python'
 brew install python >>~/install.log 2>&1
 echo 'Installing python3'
 brew install python3 >>~/install.log 2>&1
-
+echo 'Installing ruby'
+brew install ruby >>~/install.log 2>&1
 
 echo 'Installing binwalk'
 brew install binwalk >>~/install.log 2>&1
