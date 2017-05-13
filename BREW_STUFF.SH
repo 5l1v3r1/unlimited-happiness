@@ -135,6 +135,10 @@ echo 'Installing insomniax'
 brew cask install insomniax >>~/install.log 2>&1
 echo 'Installing keepassx'
 brew cask install keepassx >>~/install.log 2>&1
+echo 'Installing little-snitch'
+brew cask install little-snitch >>~/install.log 2>&1
+echo "Installing micro-snitch"
+brew cask install micro-snitch >>~/install.log 2>&1
 echo 'Installing mkchromecast'
 brew cask install mkchromecast >>~/install.log 2>&1
 echo 'Installing puush'
