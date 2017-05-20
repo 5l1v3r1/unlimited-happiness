@@ -25,7 +25,7 @@ then
     chmod +x $(pwd)/kalitools/gettools.sh
     sed -i '/fozzysac/d' $(pwd)/kalitools/gettools.sh
     sed -e 's/bash/zsh/g' $(pwd)/kalitools/gettools.sh
-    /bin/sh $(pwd)/kalitools/gettools.sh
+    sudo /bin/sh $(pwd)/kalitools/gettools.sh
 fi
 
 chmod +x $(pwd)/PIP3_STUFF.SH
