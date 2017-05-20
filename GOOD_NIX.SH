@@ -6,7 +6,7 @@ clear
 
 
 echo
-echo "GOOD_\*NIX.SH"
+echo "GOOD_NIX.SH"
 echo
 echo
 
@@ -34,8 +34,8 @@ chmod +x $(pwd)/PIP3_STUFF.SH
 chmod +x $(pwd)/GEM_STUFF.SH
 /bin/sh $(pwd)/GEM_STUFF.SH
 
-chmod +x $(pwd)/CURL_STUFF.SH
-/bin/sh $(pwd)/CURL_STUFF.SH
+echo 'Copying curlrc...'
+cp .curlrc ~/.curlrc
 
 echo 'Copying vimrc...'
 cp .vimrc ~/.vimrc
