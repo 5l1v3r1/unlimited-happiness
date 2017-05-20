@@ -13,13 +13,14 @@ echo
 
 export HISTFILE=
 
-arch = $(uname)
+arch=$(uname)
 
 if [ $arch == 'Darwin' ]
 then
     chmod +x $(pwd)/BREW_STUFF.SH
     /bin/sh $(pwd)/BREW_STUFF.SH
 elif [ $arch == 'Linux' ]
+then
     git clone https://github.com/C-Sto/kalitools
     chmod +x $(pwd)/kalitools/gettools.sh
     sed -i '/fozzysac/d' $(pwd)/kalitools/gettools.sh
