@@ -23,8 +23,8 @@ elif [ $arch == 'Linux' ]
 then
     git clone https://github.com/C-Sto/kalitools
     chmod +x $(pwd)/kalitools/gettools.sh
-    sed -i '/fozzysac/d' $(pwd)/kalitools/gettools.sh &>/dev/null
-    sed -e 's/bash/zsh/g' $(pwd)/kalitools/gettools.sh &>/dev/null
+    sed -i '/fozzysac/d' $(pwd)/kalitools/gettools.sh 
+    sed -i 's/bash/zsh/g' $(pwd)/kalitools/gettools.sh 
     sudo /bin/sh $(pwd)/kalitools/gettools.sh
 fi
 
