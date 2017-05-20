@@ -5,11 +5,11 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 sleep 20
 
-arch = $(uname)
-if [ $arch == 'Linux' ]
+arch=$(uname)
+if [ $arch = 'Linux' ]
 then
     cp nix.zshrc ~/.zshrc
-elif [ $arch == 'Darwin' ]
+elif [ $arch = 'Darwin' ]
 then
     cp mac.zshrc ~/.zshrc
 fi
