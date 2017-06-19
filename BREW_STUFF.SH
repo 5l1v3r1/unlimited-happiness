@@ -142,8 +142,8 @@ echo "Installing micro-snitch"
 brew cask install micro-snitch >>~/install.log 2>&1
 echo 'Installing mkchromecast'
 brew cask install mkchromecast >>~/install.log 2>&1
-echo 'Installing puush'
-brew cask install puush >>~/install.log 2>&1
+echo 'Installing mac2imgur'
+brew cask install mac2imgur >>~/install.log 2>&1
 echo 'Installing quassel-client'
 brew cask install quassel-client >>~/install.log 2>&1
 echo 'Installing skype'
