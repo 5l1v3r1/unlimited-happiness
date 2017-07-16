@@ -124,6 +124,8 @@ echo 'Installing android-file-transfer'
 brew cask install android-file-transfer >>~/install.log 2>&1
 echo 'Installing atom'
 brew cask install atom >>~/install.log 2>&1
+echo 'Install enpass'
+brew cask install enpass >>~/install.log 2>&1
 echo 'Installing google-chrome'
 brew cask install google-chrome >>~/install.log 2>&1
 echo 'Installing google-drive'
@@ -134,8 +136,6 @@ echo 'Installing iterm2'
 brew cask install iterm2 >>~/install.log 2>&1
 echo 'Installing insomniax'
 brew cask install insomniax >>~/install.log 2>&1
-echo 'Installing keepassx'
-brew cask install keepassx >>~/install.log 2>&1
 echo 'Installing little-snitch'
 brew cask install little-snitch >>~/install.log 2>&1
 echo "Installing micro-snitch"
