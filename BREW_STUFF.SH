@@ -120,10 +120,8 @@ echo 'Installing android-platform-tools'
 brew cask install android-platform-tools >>~/install.log 2>&1
 echo 'Installing android-file-transfer'
 brew cask install android-file-transfer >>~/install.log 2>&1
-echo 'Installing atom'
-brew cask install atom >>~/install.log 2>&1
-echo 'Install enpass'
-brew cask install enpass >>~/install.log 2>&1
+echo 'Install lastpass'
+brew cask install lastpass >>~/install.log 2>&1
 echo 'Installing google-chrome'
 brew cask install google-chrome >>~/install.log 2>&1
 echo 'Installing google-drive'
