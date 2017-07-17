@@ -77,8 +77,6 @@ brew install nmap >>~/install.log 2>&1
 
 echo 'Installing ntfs-3g'
 brew install ntfs-3g >>~/install.log 2>&1
-echo 'Installing pdfcrack'
-brew install pdfcrack >>~/install.log 2>&1
 echo 'Installing pdfgrep'
 brew install pdfgrep >>~/install.log 2>&1
 echo 'Installing proxychains-3g'
