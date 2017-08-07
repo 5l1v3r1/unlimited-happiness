@@ -63,6 +63,7 @@ export EDITOR=subl
 alias cat="ccat"
 alias -g ip="curl ifconfig.pro"
 alias .zshrc="vim ~/.zshrc && source ~/.zshrc"
+alias wget="aria2c --max-connection-per-server=4 --min-split-size=1M"
 
 # HOMEBREW OPTIONS
 export HOMEBREW_CASK_OPTS="--caskroom=/usr/local/Caskroom"

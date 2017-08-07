@@ -31,6 +31,8 @@ brew install python3 >>~/install.log 2>&1
 echo 'Installing ruby'
 brew install ruby >>~/install.log 2>&1
 
+echo 'Installing aria2c'
+brew install aria2c >>~/install.log 2>&1
 echo 'Installing binwalk'
 brew install binwalk >>~/install.log 2>&1
 echo 'Installing calc'
