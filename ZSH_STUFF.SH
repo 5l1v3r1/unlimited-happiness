@@ -9,8 +9,8 @@ sleep 20
 arch=$(uname)
 if [ $arch = 'Linux' ]
 then
-    cp nix.zshrc ~/.zshrc
+    cp ~/unlimited-happiness/nix.zshrc ~/.zshrc
 elif [ $arch = 'Darwin' ]
 then
-    cp mac.zshrc ~/.zshrc
+    cp ~/unlimited-happiness/mac.zshrc ~/.zshrc
 fi
