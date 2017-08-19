@@ -57,7 +57,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PS1="$FG[001]%n%{$reset_color%}@$FG[010]%m%{$reset_color%}:$FG[011]%1~%{$reset_color%}$ "
 
-export EDITOR=subl
+export EDITOR=vim
 
 # ALIASES
 alias cat="ccat"
