@@ -122,8 +122,6 @@ echo 'Installing android-platform-tools'
 brew cask install android-platform-tools >>~/install.log 2>&1
 echo 'Installing android-file-transfer'
 brew cask install android-file-transfer >>~/install.log 2>&1
-echo 'Installing lastpass'
-brew cask install lastpass >>~/install.log 2>&1
 echo 'Installing google-chrome'
 brew cask install google-chrome >>~/install.log 2>&1
 echo 'Installing google-drive'
@@ -142,8 +140,6 @@ echo 'Installing mac2imgur'
 brew cask install mac2imgur >>~/install.log 2>&1
 echo 'Installing quassel-client'
 brew cask install quassel-client >>~/install.log 2>&1
-echo 'Installing skype'
-brew cask install skype >>~/install.log 2>&1
 echo 'Installing slack'
 brew cask install slack >>~/install.log 2>&1
 echo 'Installing spotify'
