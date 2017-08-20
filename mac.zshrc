@@ -66,7 +66,6 @@ alias .zshrc="vim ~/.zshrc && source ~/.zshrc"
 alias wget="aria2c --max-connection-per-server=4 --min-split-size=1M"
 
 # HOMEBREW OPTIONS
-export HOMEBREW_CASK_OPTS="--caskroom=/usr/local/Caskroom"
 export HOMEBREW_NO_ANALYTICS=1
 
 # whoami | figlet -c | lolcat
