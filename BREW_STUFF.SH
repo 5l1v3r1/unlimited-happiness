@@ -155,7 +155,9 @@ brew cask install vlc >>~/install.log 2>&1
 
 
 echo
-echo 'Installing font-raleway'
+echo 'Installing font: raleway'
 brew cask install font-raleway >>~/install.log 2>&1
-echo 'Installing font-lato'
+echo 'Installing font: lato'
 brew cask install font-lato >>~/install.log 2>&1
+echo 'Installing font: source code pro'
+brew cask install font-source-code-pro >>~/install.log 2>&1
