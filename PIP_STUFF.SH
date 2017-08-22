@@ -1,5 +1,10 @@
 #!/bin/bash
 echo
+echo 'Downloading pip'
+wget https://bootstrap.pypa.io/get-pip.py >>~/install.log 2>&1
+
+echo 'Installing pip'
+python get-pip.py >>~/install.log 2>&1
 
 echo 'Upgrading pip'
 pip install --upgrade pip >>~/install.log 2>&1
