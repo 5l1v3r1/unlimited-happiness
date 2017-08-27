@@ -1,8 +1,7 @@
-# A thing for install stuff I want on *nix
+# A thing for install stuff I want on macOS 
 
-Personal *nix install script.
-Leverages C_Sto's kali install script if Linux uname
+Leverages C_Sto's kali install script if Linux `uname`
 
-Clone into ~ or .*shrc problems
+Clone into ~ or you may get .zshrc problems
 
-Run "GOOD_NIX.SH" with `bash GOOD_NIX.SH`
+`bash GOOD_NIX.SH`
